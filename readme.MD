@@ -15,6 +15,17 @@ Na raiz do projeto executar os seguintes comandos
 
   `yarn typeorm migration:run` ou `npm run typeorm migration:run`
 
+## Instruções para testes
+1 - Criar um usuário `http://localhost:3333/users`
+  
+2 - Autenticar o usuário `http://localhost:3333/sessions`
+  
+3 - Utilizar o token recebido no passo 2 nas demais rotas. 
+
+4 - Criar um cliente `http://localhost:3333/clients`
+  
+5 - Criar um produto favorito para o cliente criado `http://localhost:3333/favoriteProducts`
+
 ## Rotas de API
 ### Usuário
 
